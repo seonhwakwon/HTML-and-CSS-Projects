@@ -1,0 +1,17 @@
+table{
+	border: 5px Plum;
+}
+td:hover{
+	background-color: red;
+	color: Seashell;
+}
+tr,th{
+	background-color: Aqua;
+	color: cornsilk;
+	text-align: center;
+}
+tr,td{
+	background-color: PaleGreen;
+	color: black;
+	text-align: center;
+}
