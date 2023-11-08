@@ -10,7 +10,7 @@
 	<body>
 	<!-- HOME,GALLERY, RESERVATION MENU Bar-->
 	<div id="#home">
-		<link rel="stylesheet" type="text/css" href="head_title.css">	
+		<link rel="stylesheet" type="text/css" href="./css/one_page_website.css">	
 		<nav>
 			<ul>				
 				<li><a href="#home">HOME</a></li>
@@ -79,10 +79,22 @@
 	<div id ="contact">
 		<section>
 			<div>
-				<h2><span style="color:#EC6EA3; font-family:Bradley Hand;">Reserve your mug now!</span></h2>
+				<h2><span style="color:#EC6EA3; font-family:Bradley Hand; ">Reserve your mug now!</span></h2>
 				
-				<div style="margin-top: 20px;">
-				<form>
+				<div class = "reservation" >
+					<form action="" method="post">
+						<input class="rsvp" type="text" value="" placeholder="First Name">
+						<input class="rsvp" type="text" value="" placeholder="Last Name">
+						<input class="rsvp" type="text" value="" placeholder="Email Address">
+						<input class="rsvp" type="text" value="" placeholder="Phone Number">
+						<div class="form-spacer">
+							<label class="terms">Terms and Contditions</label>
+						</div>
+						<div class="submit">
+							<input type="submit" value="Submit">
+						</div>
+					</form>
+				<!--<form>
 					<input class="name" type="text" value="Name" style="width:350px; height:40px ">
 				</form>
 				</div>
@@ -103,12 +115,9 @@
 				<form>
 					<button type="submit" style="background-color:SeaGreen; color:white; width:130px; height:40px; font-size:20px; border:none; border-radius: 5px;">Submit</button>
 				</form>
-				</div>
-			</div>	
-			
-			<div style="float:center;"class="form-spacer">
-				<label class="terms"><br>Terms and Conditions</label>
+				</div>-->
 			</div>
+			
 		
 		</section>	
 	</div>
@@ -116,11 +125,12 @@
 	<!--End Reservation-->			
 	
 	<!--footer tag-->
-	<div>
 		<footer>
-			<p style= "background-color:SteelBlue; color:white; text-align:center; font-family:Garamond;"> 503-456-3455
-			<br>2023 Enesco, LLC All Right Reserved</p>
+			<div id="footer">
+				<p>503-456-3455
+				<br>2023 Enesco, LLC All Right Reserved</p>
+			</div>	
 		<footer>
-	</div>
+	
 	</body>
 </html>

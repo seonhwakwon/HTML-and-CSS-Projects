@@ -1,0 +1,100 @@
+li{
+	display:inline-block;
+	width:300px;
+	list-style-type:none;
+	text-align:center;
+	font-weight:bold;
+}
+.img{
+	position:relative;
+	background-image: url(../images/background.jpg);
+	height: 100vh;
+	background-size: cover;
+	
+}
+
+.img .content{
+	position: absolute;
+	color: white;
+	text-align: left;
+}
+.picture_list{
+	width:675px;
+	height:250px;
+}
+
+.picture{
+	width:225px;
+	float: left;
+	}
+
+/*---------------------------------------------
+	CSS Assigment
+----------------------------------------------*/
+
+h1{
+    font-family: 'Courier New', Courier, monospace; 
+	font-size:40px
+}
+
+h2{
+	color:#EC6EA3; 
+	font-family:Bradley Hand;
+}
+
+.reservation input[type="text"] {
+	
+    padding: 1% 1% 1% 3%;
+    width: 40%;
+    border-top: 2px solid #090B0D;
+    border-right: 4px solid #424549;
+    border-bottom: 2px solid #424549;
+    border-left: 4px solid #090B0D;
+    margin: 10px 4em;
+    border-radius: 7px;
+    font-family:  'Raleway', sans-serif;
+	
+}   
+
+.submit input[type="submit"]{
+    color: white;
+    cursor: pointer;
+    font-weight: 900;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px 3%;
+    padding: 4px 0px;
+    width: 10%;
+    font-size: 18px;
+    border-radius: 7px;
+    background-color: #797a7b;
+    box-shadow: 1px 1px 4px 0 rgba(0 ,  0 , 0 , 0.3);
+}
+
+.terms{
+   
+    margin-top: 5%;
+    padding-left: 52px;
+    font-size: 14px;
+    line-height: 5px;
+    color: #000;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+	position:relative;
+    display: inline;
+    float: right;
+	
+}
+.form-spacer{
+    padding: 30px 39px;
+}
+
+#footer{
+	background-color:SteelBlue; 
+	color:white; text-align:center; 
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
