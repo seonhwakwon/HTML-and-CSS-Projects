@@ -10,5 +10,4 @@
   - This page is an example home page for trip to Korea using HTML and CSS.
   
 ## Movie Theater site
-  - This is an exmaple home page for the Movie Theater that using Bootstrap4.
-
+  - This is an exmaple home page for the Movie Theater that using Bootstrap4.          
